@@ -35,6 +35,7 @@ void counting_sort(int *array, size_t size);
 
 void merge_sort(int *array, size_t size);
 void merge_recur(int *arr, int *array, size_t left, size_t right);
-void merge_subarray(int *arr, int *array, size_t left, size_t middle, size_t right);
+void merge_subarray(int *arr, int *array, size_t left,
+		size_t middle, size_t right);
 
 #endif /* SORT_H_ */
